@@ -5,9 +5,9 @@ public class PatientName {
 	private String firstName ;
 	private String lastName;
 	
-	public PatientName(String fname, String lname) {
-		this.firstName = fname;
-		this.lastName = lname;
+	public PatientName(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
 
 	public String getFirstName() {
